@@ -1,0 +1,25 @@
+Development Plan
+
+Step 1: Create the project folder and Python environment.
+
+Step 2: Install required packages such as Streamlit, Google GenAI SDK and Pydantic.
+
+Step 3: Design the Streamlit user interface.
+
+Step 4: Connect the application with the Gemini API.
+
+Step 5: Create the Comic and Panel structured data models.
+
+Step 6: Develop the AI prompt-generation process.
+
+Step 7: Display the generated comic panel by panel.
+
+Step 8: Implement JSON and HTML download functionality.
+
+Step 9: Test different inputs and error conditions.
+
+Step 10: Prepare the project documentation and demonstration.
+
+Team Division
+
+For a four-member team, responsibilities can be divided as:
