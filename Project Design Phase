@@ -1,0 +1,58 @@
+System Architecture
+
+The basic architecture is:
+
+User → Streamlit UI → Prompt Builder → Gemini AI → Pydantic Validation → Comic Storyboard → JSON/HTML Download
+
+Main Components
+
+1. User Interface
+
+Streamlit is used to create the web interface where users enter their story requirements.
+
+2. Prompt Builder
+
+The user’s story idea, genre, characters, panel count and audience are combined into an AI prompt.
+
+3. Gemini Model
+
+The Gemini model processes the prompt and generates the comic story.
+
+4. Structured Output
+
+Gemini returns the generated comic in JSON format.
+
+5. Pydantic Validation
+
+Pydantic validates the generated information according to the predefined Comic and Panel data structures.
+
+6. Storyboard Display
+
+The validated comic is displayed panel by panel.
+
+7. Export Module
+
+The user can download the generated comic as:
+
+* JSON
+* Standalone HTML
+
+Data Model
+
+The main Comic contains:
+
+* Title
+* Genre
+* Logline
+* Characters
+* Panels
+* Ending
+* Moral
+
+Each Panel contains:
+
+* Panel number
+* Scene
+* Narration
+* Dialogue
+* Characters
