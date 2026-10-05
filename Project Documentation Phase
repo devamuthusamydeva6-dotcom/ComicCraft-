@@ -1,0 +1,47 @@
+Project Abstract
+
+ComicCraft is an AI-based comic story creation application that uses Gemini models to convert a simple story idea into a structured comic storyboard.
+
+The application automatically generates characters, narration, dialogue and connected panels, reducing the effort required for initial comic story planning.
+
+Objectives
+
+The main objectives are:
+
+* Make comic story creation easier.
+* Demonstrate the practical use of Generative AI.
+* Use structured AI output in a real application.
+* Provide a simple interactive web interface.
+* Allow users to export generated comic content.
+
+Advantages
+
+* Easy to use
+* Fast story generation
+* Customizable genre
+* Customizable panel count
+* Structured AI output
+* JSON and HTML export
+* Beginner-friendly
+
+Limitations
+
+* Requires internet access.
+* Requires a valid Gemini API key.
+* AI-generated content may contain errors.
+* Generated output needs human review.
+* Current version generates storyboard text and scene descriptions rather than finished comic artwork.
+* Gemini API/model availability may change.
+
+Future Enhancements
+
+Future versions can include:
+
+* AI-generated comic panel artwork
+* Character consistency between panels
+* Speech-bubble rendering
+* PDF comic export
+* User accounts
+* Saved comics
+* Multiple language support
+* Individual panel editing and regeneration
