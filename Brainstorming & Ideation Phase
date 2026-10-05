@@ -1,0 +1,49 @@
+Problem Identified
+
+Creating a comic story manually requires several steps such as:
+
+* Creating a story idea
+* Developing characters
+* Writing dialogues
+* Creating narration
+* Arranging the story into different comic panels
+* Maintaining a proper story flow
+
+Beginners and students may find these tasks time-consuming and difficult.
+
+Proposed Idea
+
+The proposed solution is ComicCraft – AI Comic Story Creator, a web-based application that uses Google Gemini AI to convert a simple story idea into a structured comic storyboard.
+
+Target Users
+
+* Students
+* Teachers
+* Beginner writers
+* Content creators
+* Comic enthusiasts
+
+Main Idea
+
+The user provides:
+
+* Story idea
+* Genre
+* Characters
+* Number of panels
+* Target audience
+
+The AI then generates:
+
+* Comic title
+* Logline
+* Characters
+* Scene descriptions
+* Narration
+* Dialogue
+* Ending
+* Moral
+
+Expected Outcome
+
+The final outcome is a complete multi-panel comic storyboard that can be viewed and downloaded as JSON or HTML.
