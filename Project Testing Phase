@@ -1,0 +1,59 @@
+Test Case 1 – Valid Story Idea
+
+Input:
+A student discovers a tiny robot.
+
+Expected Result:
+The application generates a complete comic containing a title, panels, dialogue and ending.
+
+Status: Pass
+
+Test Case 2 – Different Genre
+
+Input:
+Same story with the genre set to Mystery.
+
+Expected Result:
+The generated story should follow a mystery style.
+
+Status: Pass
+
+Test Case 3 – Panel Count
+
+Input:
+Select 3 panels.
+
+Expected Result:
+The generated comic should contain approximately 3 panels.
+
+Status: Pass
+
+Test Case 4 – Empty Story Idea
+
+Input:
+Leave the story idea empty.
+
+Expected Result:
+The system should display a message asking the user to enter a story idea.
+
+Status: Pass
+
+Test Case 5 – Missing API Key
+
+Input:
+Run the application without configuring the Gemini API key.
+
+Expected Result:
+The application should show an appropriate error message.
+
+Status: Pass
+
+Test Case 6 – Download Function
+
+Action:
+Click JSON or HTML download.
+
+Expected Result:
+The corresponding file should download successfully.
+
+Status: Pass
