@@ -1,0 +1,57 @@
+Demonstration Flow
+
+Step 1: Open the ComicCraft application.
+
+Step 2: Introduce the project:
+
+ComicCraft – AI Comic Story Creator using Gemini Models
+
+Step 3: Explain the problem of manually creating comic stories.
+
+Step 4: Explain the proposed AI-based solution.
+
+Step 5: Enter a sample story idea.
+
+For example:
+
+“A shy student discovers a tiny robot that can repair broken things.”
+
+Step 6: Select a genre such as Science Fiction.
+
+Step 7: Enter characters such as Maya and Robo.
+
+Step 8: Select the number of panels.
+
+Step 9: Select the target audience.
+
+Step 10: Click Generate Comic.
+
+Step 11: Show the generated:
+
+* Title
+* Genre
+* Logline
+* Characters
+
+Step 12: Scroll through the generated panels and explain:
+
+* Scene
+* Narration
+* Dialogue
+* Characters
+
+Step 13: Show the ending and moral.
+
+Step 14: Demonstrate Download Comic JSON.
+
+Step 15: Demonstrate Download Comic HTML.
+
+Simple Viva Explanation
+
+“Our project is ComicCraft, an AI Comic Story Creator using Gemini Models. The main purpose of this project is to convert a simple story idea into a structured comic storyboard. The user provides the story idea, genre, characters, number of panels and target audience. These details are sent to the Gemini AI model through a structured prompt. Gemini generates the title, characters, scenes, narration and dialogues. The generated response is validated using Pydantic and displayed through a Streamlit interface. Finally, users can download the generated comic in JSON or HTML format.”
+
+Overall Project Flow
+
+Brainstorming → Requirement Analysis → Design → Planning → Development → Testing → Documentation → Demonstration
+
+This gives you a complete 8-phase Software Project Development / Project Documentation structure specifically matching your ComicCraft project.
