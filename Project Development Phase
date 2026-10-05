@@ -1,0 +1,72 @@
+This is the implementation phase where the planned design is converted into a working application.
+
+1. User Interface Development
+
+Streamlit is used to create the application interface.
+
+The sidebar contains:
+
+* Story idea
+* Genre selection
+* Character input
+* Number of panels
+* Audience selection
+* Generate Comic button
+
+2. Gemini API Integration
+
+The Google GenAI Python SDK is used to communicate with the Gemini model.
+
+The application sends the user’s requirements to Gemini through a structured prompt.
+
+3. Structured AI Output
+
+The system requests the AI response in JSON format.
+
+Pydantic models are used to define the expected structure:
+
+Comic
+
+* title
+* genre
+* logline
+* characters
+* panels
+* ending
+* moral
+
+Panel
+
+* panel number
+* scene
+* narration
+* dialogue
+* characters
+
+4. Storyboard Rendering
+
+After validation, the application displays every panel separately.
+
+For example:
+
+Panel 1
+
+* Scene
+* Narration
+* Dialogue
+* Characters
+
+The same structure is displayed for all generated panels.
+
+5. Export Functionality
+
+The application provides two download options:
+
+* Download Comic JSON
+* Download Comic HTML
+
+This allows the generated story to be saved and shared.
+
+Development Result
+
+The completed implementation is contained in the project’s app/app.py file.
