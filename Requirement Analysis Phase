@@ -1,0 +1,41 @@
+Functional Requirements
+
+The system should allow users to:
+
+1. Enter a story idea.
+2. Select a comic genre.
+3. Enter character names.
+4. Select between 3 and 10 panels.
+5. Select the target audience.
+6. Send the input to the Gemini AI model.
+7. Receive structured comic information.
+8. Validate the AI-generated response.
+9. Display the comic panel by panel.
+10. Download the generated comic as JSON.
+11. Download the comic as an HTML file.
+
+Non-Functional Requirements
+
+The system should provide:
+
+* Simple and user-friendly interface
+* Fast response under normal API conditions
+* Secure API-key management
+* Readable comic output
+* Proper error handling
+* Reliable structured data generation
+
+Hardware Requirements
+
+* Computer/laptop
+* Internet connection
+* Minimum suitable system for running Python and a web browser
+
+Software Requirements
+
+* Python 3.10 or above
+* Streamlit
+* Google GenAI SDK
+* Pydantic
+* Modern web browser
+* Gemini API key
